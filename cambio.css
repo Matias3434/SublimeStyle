@@ -1,0 +1,11 @@
+#carouselWithControls{
+    border: 2px solid rgb(255, 0, 200);
+    position: relative;
+}
+
+
+
+.carousel-item active{
+    position: absolute;
+    align-items: center;
+}

@@ -1,6 +1,10 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
 
 #carouselWithControls{
-    border: 2px solid rgb(255, 0, 200);
+    border: 2px solid rgb(61, 143, 236);
     position: relative;
 }
 
@@ -14,5 +18,21 @@
 }
 
 main{
-    background-color: rgb(226, 222, 222) 
+    /* background-color: rgb(37, 136, 194)  */
+    /* background-color: #5DA9E9; */
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.tamaño1{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
 }

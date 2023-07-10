@@ -1,72 +1,71 @@
-body{
-    margin: 0%;
-    padding: 0%;
-
+body {
+	margin: 0%;
+	padding: 0%;
 }
 
-
-#carouselWithControls{
-    border: 2px solid rgb(61, 143, 236);
-    position: relative;
+#carouselWithControls {
+	border: 2px solid rgb(61, 143, 236);
+	position: relative;
 }
 
-.carousel-item active{
-    position: absolute;
-    align-items: center;
+.carousel-item active {
+	position: absolute;
+	align-items: center;
 }
 
-.cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    color: white;
-    text-decoration: solid;
-    text-shadow: 1px 5px 0px black;
+.cards {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+	color: white;
+	text-decoration: solid;
+	text-shadow: 1px 5px 0px black;
 }
 
-.cardproducts{
-    border: 2px solid #2C5364;
-    border-radius: 5px;
-    margin: 5px;
-    box-shadow: 1px 5px 15px black;
-    text-align: center;
+.cardproducts {
+	border: 2px solid #2c5364;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 1px 5px 15px black;
+	text-align: center;
 }
 
-main{
-    /* background-color: rgb(37, 136, 194)  */
-    /* background-color: #5DA9E9; */
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 1px 5px 15px black;
+main {
+	/* background-color: rgb(37, 136, 194)  */
+	/* background-color: #5DA9E9; */
+	background: #0f2027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: 1px 5px 10px black;
+	margin: 0%;
+	padding: 0%;
 }
 
+footer {
+	background-position-x: 5px;
+	background-position-y: 185px;
+	height: 100;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: center;
+	padding: 10px;
+	color: #049589;
+	font-weight: 600;
+	font-size: 15px;
+	background-color: #212529;
+}
 
-
-/* .tamaño1{
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-} */
-
-/* .container-card{
-    
-} */
-
-/* .footer-container{
-    
-} */
-
-footer{
-    height: 100;
-    background-image: url(multimedia/zipper.jpg);
-    image-resolution: 100px 100p;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    padding: 15px;
-}   
-
-.logo{
-    
+footer h6 {
+	text-align: left;
+	margin-top: 30px;
 }

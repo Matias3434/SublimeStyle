@@ -49,6 +49,7 @@ main {
 	box-shadow: 1px 5px 10px black;
 	margin: 0%;
 	padding: 0%;
+	overflow: hidden;
 }
 
 footer {
@@ -69,5 +70,4 @@ footer {
 	background-color: #212529;
 	color: #049589;
 	text-align: center;
-	padding-top: 0%;
 }

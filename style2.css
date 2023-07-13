@@ -3,24 +3,24 @@ body {
 	padding: 0%;
 }
 
-main {
-	background: #0f2027; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to bottom,
-		#2c5364,
-		#203a43,
-		#0f2027
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to bottom,
-		#2c5364,
-		#203a43,
-		#0f2027
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: whitesmoke;
+header {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background-image: url(./multimedia/1er_slide.png);
+  background-size:
 }
 
 form {
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+button {
+	background-color: #8aa29e;
+	color: black;
+	font-size: 15px;
+	margin-top: 20px;
 }

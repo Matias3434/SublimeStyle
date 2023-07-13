@@ -11,11 +11,12 @@ body {
 	margin: 5px;
 	box-shadow: 1px 5px 15px black;
 	text-align: center;
+	background-color: white;
 }
 
 .card {
 	/* box-shadow: 10px 0px 40px  rgba(0, 0, 0, 0.151); */
-	box-shadow: 0px 0px 15px black;
+	box-shadow: 0px 0px 30px black;
 	border: 3px solid #2c5364;
 	background: #0f2027; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
@@ -96,7 +97,7 @@ footer {
 
 
 .navbar-brand{
-	width: 150px;
+	/* width: 150px;
 	height: 70px;
 	padding: 0;
-}
+} */

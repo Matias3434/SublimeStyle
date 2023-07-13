@@ -93,3 +93,10 @@ footer {
 	color: #049589;
 	text-align: center;
 }
+
+
+.navbar-brand{
+	width: 150px;
+	height: 70px;
+	padding: 0;
+}

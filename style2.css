@@ -1,21 +1,52 @@
 body {
 	margin: 0%;
 	padding: 0%;
+	background-color: whitesmoke;
 }
 
-header {
-	display: flex;
+img {
+	position: relative;
 	width: 500px;
 	height: 500px;
-	background-image: url(./multimedia/1er_slide.png);
-  background-size:
+	box-shadow: 0px 0px 20px;
+}
+
+p {
+	position: absolute;
+	z-index: 1;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 80px;
+	margin-top: 250px;
+	color: white;
+	text-decoration: solid;
+	text-transform: capitalize;
+	text-shadow: 0px 2px 5px black;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 form {
+	justify-content: center;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
-	max-width: 300px;
-	margin: 0 auto;
+	max-width: 3000px;
+	border: 1px solid black;
+	margin: 40px;
+	border-radius: 5px;
+	background: #0f2027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 button {

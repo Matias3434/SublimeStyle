@@ -97,7 +97,11 @@ footer {
 
 
 .navbar-brand{
-	/* width: 150px;
-	height: 70px;
-	padding: 0;
-} */
+	width: auto;
+	height: 45px;
+	
+}
+
+.container-fluid{
+	/* position: fixed; */
+}

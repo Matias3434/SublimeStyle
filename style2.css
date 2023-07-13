@@ -8,7 +8,7 @@ img {
 	position: relative;
 	width: 500px;
 	height: 500px;
-	box-shadow: 0px 0px 20px;
+	box-shadow: 0px 0px 25px black;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 	z-index: 1;
 	font-size: 30px;
 	text-align: center;
-	margin-left: 80px;
+	margin-left: 30px;
 	margin-top: 250px;
 	color: white;
 	text-decoration: solid;
@@ -24,6 +24,10 @@ p {
 	text-shadow: 0px 2px 5px black;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background-color: #2c5364;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px black;
 }
 
 form {
@@ -32,7 +36,6 @@ form {
 	grid-template-rows: repeat(2, 1fr);
 	max-width: 3000px;
 	border: 1px solid black;
-	margin: 40px;
 	border-radius: 5px;
 	background: #0f2027; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
@@ -47,6 +50,9 @@ form {
 		#203a43,
 		#0f2027
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
 button {
@@ -54,4 +60,71 @@ button {
 	color: black;
 	font-size: 15px;
 	margin-top: 20px;
+}
+
+@media (min-width: 501px) {
+	img {
+		width: 600px;
+	}
+}
+
+@media (min-width: 501px) {
+	p {
+    margin-left: 50px;
+  }
+}
+
+
+@media (min-width: 581) {
+	p {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 620px) {
+	p {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 633px) {
+	img {
+		width: 700px;
+	}
+}
+
+@media (min-width: 635px) {
+	p {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 703px) {
+	p {
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: 6824px) {
+	p {
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 837px) {
+	p {
+    margin-left: 230px;
+  }
+}
+
+@media (min-width: 829px) {
+	img {
+		width: 990px;
+	}
+}
+
+@media (min-width: 1009px) {
+	p {
+    margin-left: 280px;
+  }
 }

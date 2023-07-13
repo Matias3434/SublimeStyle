@@ -1,8 +1,4 @@
-body {
-	background-color: whitesmoke;
-	padding: 0%;
-	margin: ;
-}
+
 
 .container-card {
 	justify-content: center;
@@ -95,13 +91,20 @@ footer {
 	text-align: center;
 }
 
-
-.navbar-brand{
+.navbar{
 	width: auto;
-	height: 45px;
-	
+	height: 48px;
 }
 
-.container-fluid{
-	/* position: fixed; */
+
+
+.navbar-brand {
+	width: auto;
+	height: 40px;
 }
+
+.carousel{
+	margin-top: 47px;
+
+}
+

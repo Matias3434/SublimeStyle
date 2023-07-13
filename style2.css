@@ -78,10 +78,17 @@ button {
 	img {
 		width: 630px;
 	}
+  p{
+    margin-left: 130px;
+  }
 }
+
 
 @media (min-width: 1200px) {
 	img {
-		width: 950px;
+		width: 1200px;
 	}
+  p{
+    
+  }
 }

@@ -1,20 +1,16 @@
-.navbar{
+.navbar {
 	width: auto;
 	height: 55px;
 }
-
-
 
 .navbar-brand {
 	width: auto;
 	height: 50px;
 }
 
-.carousel{
+.carousel {
 	margin-top: 47px;
-
 }
-
 
 .container-card {
 	justify-content: center;
@@ -46,6 +42,8 @@
 	color: white;
 	text-decoration: solid;
 	/* text-shadow: 0px 0px 15px black; */
+	color: #049589;
+	text-shadow: 1px 5px 10px black;
 }
 
 .cards {
@@ -54,7 +52,8 @@
 	width: 100%;
 	color: white;
 	text-decoration: solid;
-	/* text-shadow: 1px 5px 0px black; */
+	text-shadow: 1px 5px 0px black;
+	color: #049589;
 }
 
 .cardproducts {
@@ -63,6 +62,7 @@
 	margin: 5px;
 	box-shadow: 1px 5px 15px black;
 	text-align: center;
+	color: #049589;
 }
 
 main {
@@ -88,7 +88,6 @@ main {
 }
 
 footer {
-	
 	background-position-x: 5px;
 	background-position-y: 185px;
 	height: 100;
@@ -107,5 +106,3 @@ footer {
 	color: #049589;
 	text-align: center;
 }
-
-
